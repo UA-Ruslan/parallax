@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 54, 0.53);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(147, 230, 231, 0.84);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 183, 183);
+}
+

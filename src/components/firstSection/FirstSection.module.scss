@@ -1,0 +1,179 @@
+.firstSectionWrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  overflow: hidden;
+  transform: scale(1);
+  max-width: 2080px;
+  max-height: 1040px;
+}
+
+.fakeImg {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonActive {
+  transform: scale(15);
+}
+
+.cave1 {
+  position: absolute;
+  width: 2150px;
+  top: calc(50% + 50px);
+  left: 50%;
+  z-index: 99;
+}
+
+.cave2 {
+  position: absolute;
+  width: 1788px;
+  top: calc(50% - 86px);
+  left: 50%;
+  z-index: 98;
+}
+
+.cave3 {
+  position: absolute;
+  width: 1844px;
+  top: calc(50% - (-18px));
+  left: 50%;
+  z-index: 97;
+}
+
+.cave4 {
+  position: absolute;
+  width: 1844px;
+  top: calc(50% - (-55px));
+  left: calc(50% - 110px);
+  z-index: 96;
+}
+
+.cave5 {
+  position: absolute;
+  width: 1844px;
+  top: calc(50% + 45px);
+  left: calc(50% + 20px);
+  z-index: 96;
+}
+
+.plant1 {
+  position: absolute;
+  width: 250px;
+  top: calc(50% + 254px);
+  left: calc(50% + 322px);
+  z-index: 98;
+}
+
+.plant2 {
+  position: absolute;
+  width: 300px;
+  top: calc(50% - 370px);
+  left: calc(50% + 322px);
+  z-index: 98;
+}
+
+.plant3 {
+  position: absolute;
+  width: 220px;
+  top: calc(50% + (-145px));
+  left: calc(50% - 280px);
+  z-index: 97;
+}
+
+.plant4 {
+  position: absolute;
+  width: 250px;
+  top: calc(50% + 410px);
+  left: calc(50% + (-215px));
+  z-index: 99;
+}
+
+.plant5 {
+  position: absolute;
+  width: 105px;
+  top: calc(50% + 258px);
+  left: calc(50% + (-189px));
+  z-index: 99;
+}
+
+.plant6 {
+  position: absolute;
+  width: 120px;
+  top: calc(50% + 155px);
+  left: calc(50% + 110px);
+  z-index: 98;
+}
+
+.plant7 {
+  position: absolute;
+  width: 205px;
+  top: calc(50% + 227px);
+  left: calc(50% + (-305px));
+  z-index: 98;
+  filter: contrast(1.6) brightness(.7);
+}
+
+.fog1 {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 0px);
+  z-index: 98;
+}
+
+.fog2 {
+  position: absolute;
+  width: 1975px;
+  top: calc(50% + -69px);
+  left: calc(50% - 220px);
+  z-index: 98;
+  opacity: .6;
+}
+
+.fog3 {
+  position: absolute;
+  top: calc(50% + (-130px));
+  left: calc(50% + (-140px));
+  z-index: 99;
+  opacity: .7;
+}
+
+.fog4 {
+  position: absolute;
+  width: 1000px;
+  top: calc(50% + -410px);
+  left: calc(50% + 200px);
+  z-index: 97;
+  opacity: .8;
+}
+
+.fog5 {
+  position: absolute;
+  width: 1844px;
+  top: calc(50% + 0px);
+  left: calc(50% + 0px);
+  z-index: 96;
+  opacity: .6;
+}
+
+.element {
+  position: absolute;
+  width: 10px;
+  top: calc(50% + 0px);
+  left: calc(50% + 0px);
+  z-index: 99;
+  opacity: .3;
+}
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    max-width: 2080px;
+    max-height: 1040px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    background: none;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(131, 206, 183);
+    transition: .5s;
+    box-shadow: 0px 0px 10px 6px rgb(180, 231, 215);
+}
+.spanStyle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    z-index: 999;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 500px){
+    .spanStyle {
+        font-size: .6rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        z-index: 999;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

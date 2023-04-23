@@ -1,0 +1,141 @@
+.secondSectionWrapper {
+  //display: none;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: 90;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 2080px;
+  max-height: 1040px;
+
+
+  .sky {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2600px;
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+
+  .spaceSky {
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 2600px;
+    position: absolute;
+    top: calc(-100vh + 50%);
+    left: 50%;
+  }
+
+  .moon {
+    position: absolute;
+    top: calc(-100vh + 50%);
+    left: 50%;
+    max-width: 508px;
+    max-height: 508px;
+  }
+
+  .bg1 {
+    width: 2165px;
+    position: absolute;
+    top: calc(50% + 265px);
+    left: 50%;
+    z-index: 88;
+  }
+
+  .mount1 {
+    width: 300px;
+    position: absolute;
+    top: calc(50% + 0px);
+    left: calc(50% - 950px);
+    z-index: 87;
+  }
+
+  .mount2 {
+    width: 2100px;
+    position: absolute;
+    top: calc(50% + 91px);
+    left: calc(50% - 0px);
+    z-index: 86;
+  }
+
+  .mount3 {
+    width: 1200px;
+    position: absolute;
+    top: calc(50% - 105px);
+    left: calc(50% - 76px);
+    z-index: 85;
+  }
+
+  .mount4 {
+    width: 1750px;
+    position: absolute;
+    top: calc(50% - 90px);
+    left: calc(50% + 100px);
+    z-index: 84;
+  }
+
+  .tree {
+    width: 775px;
+    position: absolute;
+    top: calc(50% + 225px);
+    left: calc(50% - 500px);
+    z-index: 89;
+  }
+
+  .fog1 {
+    position: absolute;
+    top: calc(50% + 200px);
+    left: calc(50% + 0px);
+    z-index: 89;
+  }
+
+  .fog2 {
+    position: absolute;
+    width: 2300px;
+    top: calc(50% + 69px);
+    left: calc(50% - 0px);
+    z-index: 89;
+    opacity: .6;
+  }
+
+  .fog5 {
+    position: absolute;
+    width: 2200px;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+    z-index: 86;
+    opacity: .6;
+  }
+}
+@media screen and (max-height: 560px){
+  .secondSectionWrapper {
+    .moon {
+      position: absolute;
+      top: calc(-100vh + 50%);
+      left: 50%;
+      max-width: 200px;
+      max-height: 200px;
+    }
+    .mount3 {
+      max-height: 100vh;
+      top: calc(60%);
+    }
+
+    .mount4 {
+      height: 100vh;
+      top: calc(60%);
+    }
+    .fog2 {
+      max-height: 200vh;
+    }
+    .fog5 {
+      max-height: 200vh;
+    }
+  }
+}
