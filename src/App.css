@@ -11,6 +11,18 @@
     overflow: hidden;
     display: flex;
 }
+.fakeImg {
+    width: 130%;
+    height: 134%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.fakeImgActive {
+    display: block;
+}
 
 .button {
     position: absolute;

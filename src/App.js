@@ -3,24 +3,23 @@ import FirstSection from "./components/firstSection/FirstSection";
 import React, {useEffect, useRef, useState} from "react";
 import SecondSection from "./components/secondSection/SecondSection";
 import ImagesData from "./ImagesData";
+import fakeImg from "./images/secondSection/fakeBG.webp";
 
 function App() {
-
-    const [isButtonClick, setButtonClick] = useState(false)
-    const [intervalOnClick, setIntervalOnClick] = useState(false)
-    const [mouseMove, setMouseMove] = useState(false)
     const mouseMoveTimeoutIdRef = useRef(null);
-    const [directX, setDirectX] = useState(0)
-    const [directY, setDirectY] = useState(0)
-    const [scrollValue, setScrollValue] = useState(0)
-    const [btnOpacity, setBtnOpacity] = useState({})
+    const [isButtonClick, setButtonClick] = useState(false);
+    const [mouseMove, setMouseMove] = useState(false);
+    const [directX, setDirectX] = useState(0);
+    const [directY, setDirectY] = useState(0);
+    const [scrollValue, setScrollValue] = useState(0);
+    const [btnOpacity, setBtnOpacity] = useState({});
 
     const parallaxOnMouseMove = (e) => {
         const windowX = e.clientX - window.innerWidth / 2;
         const windowY = e.clientY - window.innerHeight / 2;
         setDirectX(windowX)
         setDirectY(windowY)
-    }
+    };
     useEffect(() => {
         if (scrollValue < 0) {
             const btnStyle = {
@@ -33,22 +32,7 @@ function App() {
             }
             setBtnOpacity(btnStyle)
         }
-    }, [scrollValue])
-
-    useEffect(() => {
-        if (isButtonClick === true) {
-            const clickInterval = setTimeout(() => {
-                setIntervalOnClick(true)
-            }, 1000)
-            return () => {
-                clearTimeout(clickInterval);
-            };
-        } else {
-            setIntervalOnClick(false)
-        }
-
-    },[isButtonClick]);
-
+    }, [scrollValue]);
 
     //----------------------------span-visibility---------------------//
     const onMouseMove = () => {
@@ -71,7 +55,6 @@ function App() {
             {mouseMove ? "" : <span className="spanStyle">MOVE YOUR MOUSE</span>}
             <FirstSection
                 isButtonClick={isButtonClick}
-                intervalOnClick={intervalOnClick}
                 parallaxOnMouseMove={parallaxOnMouseMove}
                 directX={directX}
                 directY={directY}
@@ -83,7 +66,11 @@ function App() {
                 directY={directY}
                 dataSecondSection={ImagesData.dataSecondSection}
                 setScrollValue={setScrollValue}
+                isButtonClick={isButtonClick}
             />
+
+
+            <img className={!isButtonClick ?  "fakeImg" + " " + "fakeImgActive" : "fakeImg"} src={fakeImg} alt="fakeImg"/>
         </div>
     );
 

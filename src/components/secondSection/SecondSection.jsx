@@ -80,7 +80,7 @@ const SecondSection = (props) => {
     })
 
     return (
-        <div onScroll={handleScroll} onMouseMove={props.parallaxOnMouseMove} className={style.secondSectionWrapper}>
+        <div  onScroll={handleScroll} onMouseMove={props.parallaxOnMouseMove} className={props.isButtonClick ? style.secondSectionWrapper : style.secondSectionWrapper + " " + style.secondSectionWrapperInactive}>
             {images}
             <img src={shuttle} style={shuttleStyle} alt="shuttle"/>
         </div>

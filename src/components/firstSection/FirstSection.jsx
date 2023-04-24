@@ -1,15 +1,22 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import style from "./FirstSection.module.scss"
-import fakeImg from "../../images/secondSection/fakeBG.webp"
 
 const FirstSection = (props) => {
+    const [firstSectionDisplayNone, setFirstSectionDisplayNone] = useState(false)
 
-    const firstSectionOpacity = {
-        zIndex: `${!props.intervalOnClick ? 100 : 0}`,
-        display: `${!props.intervalOnClick ? "block" : "none"}`,
-        // opacity: `${!props.intervalOnClick ? 1 : 0}`,
-        transition: "1s cubic-bezier(.38,.18,.7,.92)",
-    }
+    useEffect(() => {
+        if (props.isButtonClick === true) {
+            const clickInterval = setTimeout(() => {
+                setFirstSectionDisplayNone(true)
+            }, 2000)
+            return () => {
+                clearTimeout(clickInterval);
+            };
+        } else {
+            setFirstSectionDisplayNone(false)
+        }
+
+    },[props.isButtonClick]);
 
     const images = props.dataFirstSection.map((img, index) => {
 
@@ -24,13 +31,12 @@ const FirstSection = (props) => {
 
     return (
         <div onMouseMove={props.parallaxOnMouseMove}
-             style={firstSectionOpacity}
+             style={firstSectionDisplayNone ? {display:"none"} : {display:"block"}}
              className={props.isButtonClick
                  ? `${style.firstSectionWrapper} ${style.buttonActive}`
                  : style.firstSectionWrapper}>
 
             {images}
-            {/*<img className={style.fakeImg} src={fakeImg} alt="fakeImg"/>*/}
         </div>
     )
 }

@@ -1,4 +1,5 @@
 .firstSectionWrapper {
+  display: block;
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -6,22 +7,17 @@
   left: 0;
   z-index: 100;
   overflow: hidden;
-  transform: scale(1);
   max-width: 2080px;
   max-height: 1040px;
+  transition: 1s;
 }
-
-.fakeImg {
-  width: 80%;
-  height: 80%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .buttonActive {
-  transform: scale(15);
+  transform: scale(10);
+  transition: 1s;
+}
+
+.firstSectionWrapperDisplayNone {
+  display: none;
 }
 
 .cave1 {
@@ -163,14 +159,14 @@
   opacity: .6;
 }
 
-.element {
-  position: absolute;
-  width: 10px;
-  top: calc(50% + 0px);
-  left: calc(50% + 0px);
-  z-index: 99;
-  opacity: .3;
-}
+//.element {
+//  position: absolute;
+//  width: 10px;
+//  top: calc(50% + 0px);
+//  left: calc(50% + 0px);
+//  z-index: 99;
+//  opacity: .3;
+//}
 
 
 

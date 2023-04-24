@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5dc483e-0e7d-495a-b9a5-af9ecf4957be" name="Changes" comment="" />
+    <list default="true" id="a5dc483e-0e7d-495a-b9a5-af9ecf4957be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/firstSection/FirstSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstSection/FirstSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/firstSection/FirstSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstSection/FirstSection.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/secondSection/SecondSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/secondSection/SecondSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/secondSection/SecondSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/secondSection/SecondSection.module.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,9 +39,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Doc/front_and/new",
+    "last_opened_file_path": "D:/Documents/react/my_projects/parallax/parallax",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -75,6 +88,7 @@
       <workItem from="1682151290582" duration="18588000" />
       <workItem from="1682170160864" duration="1797000" />
       <workItem from="1682243481297" duration="649000" />
+      <workItem from="1682247202979" duration="6660000" />
     </task>
     <servers />
   </component>
