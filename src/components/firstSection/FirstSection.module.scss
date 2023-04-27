@@ -1,23 +1,13 @@
+@import "../../scss/templates";
 .firstSectionWrapper {
+  @extend %sectionSameStyle;
   display: block;
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  top: 0;
-  left: 0;
   z-index: 100;
-  overflow: hidden;
-  max-width: 2080px;
-  max-height: 1040px;
   transition: 1s;
 }
 .buttonActive {
   transform: scale(10);
   transition: 1s;
-}
-
-.firstSectionWrapperDisplayNone {
-  display: none;
 }
 
 .cave1 {
@@ -48,7 +38,7 @@
   position: absolute;
   width: 1844px;
   top: calc(50% - (-55px));
-  left: calc(50% - 110px);
+  left: calc(50% - 150px);
   z-index: 96;
 }
 

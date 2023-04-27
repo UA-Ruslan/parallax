@@ -1,0 +1,89 @@
+@import "./scss/templates";
+
+.App {
+  @extend %sectionSameStyle;
+  z-index: 1000;
+  margin: 0 auto;
+  display: flex;
+}
+
+.fakeImg {
+  width: 2050px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+}
+
+.fakeImgSmallHeight {
+  min-width: 850px;
+  max-width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: calc(50%);
+  left: 50%;
+  display: none;
+}
+
+.fakeImgActive {
+  display: block;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  color: rgb(255, 255, 255);
+  transition: .2s;
+  background: none;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 150px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.button:hover {
+  background: rgb(131, 206, 183);
+  transition: .5s;
+  box-shadow: 0 0 10px 6px rgb(180, 231, 215);
+}
+
+.spanStyle {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  z-index: 999;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 10px #000000, 1px 1px 20px rgb(255, 0, 0);
+}
+
+.scroll {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .spanStyle {
+    font-size: .6rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    z-index: 999;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .scroll {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+  }
+}

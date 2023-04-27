@@ -1,22 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import style from "./FirstSection.module.scss"
 
 const FirstSection = (props) => {
-    const [firstSectionDisplayNone, setFirstSectionDisplayNone] = useState(false)
-
-    useEffect(() => {
-        if (props.isButtonClick === true) {
-            const clickInterval = setTimeout(() => {
-                setFirstSectionDisplayNone(true)
-            }, 2000)
-            return () => {
-                clearTimeout(clickInterval);
-            };
-        } else {
-            setFirstSectionDisplayNone(false)
-        }
-
-    },[props.isButtonClick]);
 
     const images = props.dataFirstSection.map((img, index) => {
 
@@ -30,11 +15,9 @@ const FirstSection = (props) => {
     })
 
     return (
-        <div onMouseMove={props.parallaxOnMouseMove}
-             style={firstSectionDisplayNone ? {display:"none"} : {display:"block"}}
-             className={props.isButtonClick
-                 ? `${style.firstSectionWrapper} ${style.buttonActive}`
-                 : style.firstSectionWrapper}>
+        <div onWheel={props.onWheel} onTouchMove={props.parallaxOnTouchMove} onMouseMove={props.parallaxOnMouseMove}
+             style={props.scale >= 10 ? {display:"none"} : {display:"block", transform:`scale(${props.scale})`}}
+             className={style.firstSectionWrapper}>
 
             {images}
         </div>

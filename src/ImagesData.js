@@ -12,8 +12,6 @@ import plant6 from "./images/plants/plant6.webp";
 import plant7 from "./images/plants/plant7.webp";
 import fog1 from "./images/fog/fog1.webp";
 import fog2 from "./images/fog/fog2.webp";
-import fog3 from "./images/fog/fog3.webp";
-import fog4 from "./images/fog/fog5.webp";
 import fog5 from "./images/fog/fog6.webp";
 //--------------------------------------------------
 import sky from "./images/secondSection/sky.webp"
@@ -42,11 +40,6 @@ let ImagesData = {
         {src: plant5, speedX: 0.035, speedY: 0.035, className: "plant5"},
         {src: plant6, speedX: 0.035, speedY: 0.035, className: "plant6"},
         {src: plant7, speedX: 0.035, speedY: 0.035, className: "plant7"},
-        // {src: fog1, speedX: 0.035, speedY: 0.035, className: "fog1"},
-        // {src: fog2, speedX: -0.12, speedY: 0.1, className: "fog2"},
-        // {src: fog3, speedX: -0.055, speedY: 0.055, className: "fog3"},
-        // {src: fog4, speedX: 0.035, speedY: 0.035, className: "fog4"},
-        // {src: fog5, speedX: -0.25, speedY: 0.11, className: "fog5"},
     ],
     dataSecondSection: [
         {src: sky, speedX: 0.03, speedY: 0.035, className: "sky"},
@@ -54,7 +47,7 @@ let ImagesData = {
         {src: mount1, speedX: 0.04, speedY: 0.045, className: "mount1"},
         {src: mount2, speedX: 0.03, speedY: 0.035, className: "mount2"},
         {src: mount3, speedX: 0.04, speedY: 0.045, className: "mount3"},
-        {src: mount4, speedX: 0.05, speedY: 0.045, className: "mount4"},
+        {src: mount4, speedX: 0.05, speedY: 0.055, className: "mount4"},
         {src: tree, speedX: 0.01, speedY: 0.02, className: "tree"},
         {src: spaceSky, speedX: 0.03, speedY: 0.035, className: "spaceSky"},
         {src: moon, speedX: 0.02, speedY: 0.04, className: "moon"},

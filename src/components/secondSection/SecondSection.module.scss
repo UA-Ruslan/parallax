@@ -1,18 +1,12 @@
+@import "../../scss/templates";
+
 .secondSectionWrapper {
-  //display: none;
+  @extend %sectionSameStyle;
   display: flex;
   flex-direction: column-reverse;
-  width: 100vw;
-  min-height: 100vh;
   z-index: 90;
-  overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 2080px;
-  max-height: 1040px;
-
 
   .sky {
     position: absolute;
@@ -38,6 +32,21 @@
     left: 50%;
     max-width: 508px;
     max-height: 508px;
+  }
+
+  .theEndActive {
+    z-index: 90;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: .5s;
+    opacity: 1;
+  }
+  .theEndInactive {
+    opacity: 0;
+    transition: .5s;
   }
 
   .bg1 {
@@ -113,7 +122,8 @@
     opacity: .6;
   }
 }
-@media screen and (max-height: 560px){
+
+@media screen and (max-height: 560px) {
   .secondSectionWrapper {
     .moon {
       position: absolute;
@@ -122,6 +132,7 @@
       max-width: 200px;
       max-height: 200px;
     }
+
     .mount3 {
       max-height: 100vh;
       top: calc(60%);
@@ -131,9 +142,11 @@
       height: 100vh;
       top: calc(60%);
     }
+
     .fog2 {
       max-height: 200vh;
     }
+
     .fog5 {
       max-height: 200vh;
     }
