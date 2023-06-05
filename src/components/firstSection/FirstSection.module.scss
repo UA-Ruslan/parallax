@@ -13,7 +13,7 @@
 .cave1 {
   position: absolute;
   width: 2150px;
-  top: calc(50% + 50px);
+  top: calc(50% - 30px);
   left: 50%;
   z-index: 99;
 }
@@ -77,8 +77,8 @@
 .plant4 {
   position: absolute;
   width: 250px;
-  top: calc(50% + 410px);
-  left: calc(50% + (-215px));
+  top: calc(50% + 580px);
+  left: calc(50% + (-270px));
   z-index: 99;
 }
 

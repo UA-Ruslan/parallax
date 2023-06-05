@@ -52,7 +52,7 @@
   .bg1 {
     width: 2165px;
     position: absolute;
-    top: calc(50% + 265px);
+    top: calc(50% + 435px);
     left: 50%;
     z-index: 88;
   }
@@ -60,7 +60,7 @@
   .mount1 {
     width: 300px;
     position: absolute;
-    top: calc(50% + 0px);
+    top: calc(50% + 150px);
     left: calc(50% - 950px);
     z-index: 87;
   }
@@ -68,7 +68,8 @@
   .mount2 {
     width: 2100px;
     position: absolute;
-    top: calc(50% + 91px);
+    top: calc(50% + 241px);
+    //top: calc(50% + 91px);
     left: calc(50% - 0px);
     z-index: 86;
   }
@@ -76,7 +77,7 @@
   .mount3 {
     width: 1200px;
     position: absolute;
-    top: calc(50% - 105px);
+    top: calc(50% + 55px);
     left: calc(50% - 76px);
     z-index: 85;
   }
@@ -84,7 +85,7 @@
   .mount4 {
     width: 1750px;
     position: absolute;
-    top: calc(50% - 90px);
+    top: calc(50% + 60px);
     left: calc(50% + 100px);
     z-index: 84;
   }
@@ -92,14 +93,15 @@
   .tree {
     width: 775px;
     position: absolute;
-    top: calc(50% + 225px);
+    top: calc(50% + 450px);
     left: calc(50% - 500px);
     z-index: 89;
   }
 
   .fog1 {
+    width: 100vw;
     position: absolute;
-    top: calc(50% + 200px);
+    top: calc(50% + 400px);
     left: calc(50% + 0px);
     z-index: 89;
   }
@@ -107,7 +109,7 @@
   .fog2 {
     position: absolute;
     width: 2300px;
-    top: calc(50% + 69px);
+    top: calc(50% + 210px);
     left: calc(50% - 0px);
     z-index: 89;
     opacity: .6;

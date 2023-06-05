@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5dc483e-0e7d-495a-b9a5-af9ecf4957be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/secondSection/fakeBGSmallHeight.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/templates.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cave/cave11.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImagesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImagesData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/firstSection/FirstSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstSection/FirstSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/firstSection/FirstSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstSection/FirstSection.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/secondSection/SecondSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/secondSection/SecondSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/secondSection/SecondSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/secondSection/SecondSection.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/blick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/fog1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fog/fog1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/fog2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fog/fog2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/fog3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/fog4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/fog5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fog/fog5.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fog/fog6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fog/fog6.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/plants/plant1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/plants/plant1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/plants/plant4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/plants/plant4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/plants/plant5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/plants/plant5.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/plants/plant6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/plants/plant6.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/plants/plant7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/plants/plant7.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/secondSection/destroyers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/cave/cave1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cave/cave1.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/secondSection/fakeBG.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/secondSection/fakeBG.webp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,24 +29,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Doc/front_and/parallax",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Doc/front_and/test_projects/test/global&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Doc\front_and\projects\parallax\src\components" />
@@ -112,7 +94,10 @@
       <workItem from="1682488802186" duration="19534000" />
       <workItem from="1682513429055" duration="700000" />
       <workItem from="1682515904586" duration="3530000" />
-      <workItem from="1682575331167" duration="8311000" />
+      <workItem from="1682575331167" duration="8787000" />
+      <workItem from="1684305409634" duration="702000" />
+      <workItem from="1685534151366" duration="6249000" />
+      <workItem from="1685606271287" duration="614000" />
     </task>
     <servers />
   </component>

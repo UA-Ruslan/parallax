@@ -9,9 +9,10 @@
 
 .fakeImg {
   width: 2050px;
-  height: 1000px;
+  height: 100vh;
+  max-height: 1040px;;
   position: absolute;
-  top: 50%;
+  top: calc(50% + 65px);
   left: 50%;
   display: none;
 }
